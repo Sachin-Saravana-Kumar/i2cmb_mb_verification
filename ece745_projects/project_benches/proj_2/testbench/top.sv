@@ -98,10 +98,7 @@ initial begin : rst_gen
 end
 
 
-i2c_agent    i2c_ag;
-wb_agent  wb_ag;
-i2cmb_generator gen;
-i2cmb_environment env;
+
 test_base tst;
 
 
