@@ -1,0 +1,823 @@
+# vsim -batch -classdebug -msgmode both -l transcript -do "set NoQuitOnFinish 1; add wave -r *; log -r *; run -all; exit" optimized_debug_top_tb 
+# Start time: 02:30:17 on Mar 28,2025
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.i2c_types(fast)
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.i2c_if_sv_unit(fast)
+# Loading work.i2c_if(fast__1)
+# Loading work.wb_if(fast__1)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.iicmb_m_wb(str)#1
+# Loading work.wishbone(rtl)#1
+# Loading ieee.numeric_std(body)
+# Loading work.iicmb_pkg(body)
+# Loading work.regblock(rtl)#1
+# Loading work.iicmb_int_pkg(body)
+# Loading work.iicmb_m(str)#1
+# Loading work.mbyte(rtl)#1
+# Loading work.mbit(rtl)#1
+# Loading work.conditioner_mux(str)#1
+# Loading work.conditioner(str)#1
+# Loading work.filter(rtl)#1
+# Loading work.bus_state(rtl)#1
+# 
+# set NoQuitOnFinish 1
+# 1
+# add wave -r *
+# log -r *
+# run -all
+# Time:                21500 | Addr: 1 | Data:   0  | WE: 1
+# Time:               511500 | Addr: 1 | Data:  68  | WE: 1
+# Time:              9540500 | Addr: 1 | Data:   0  | WE: 1
+# Time:             18569500 | Addr: 1 | Data:   1  | WE: 1
+# Time:             27598500 | Addr: 1 | Data:   2  | WE: 1
+# Time:             36627500 | Addr: 1 | Data:   3  | WE: 1
+# Time:             45656500 | Addr: 1 | Data:   4  | WE: 1
+# Time:             54685500 | Addr: 1 | Data:   5  | WE: 1
+# Time:             63714500 | Addr: 1 | Data:   6  | WE: 1
+# Time:             72743500 | Addr: 1 | Data:   7  | WE: 1
+# Time:             81772500 | Addr: 1 | Data:   8  | WE: 1
+# Time:             90801500 | Addr: 1 | Data:   9  | WE: 1
+# Time:             99830500 | Addr: 1 | Data:  10  | WE: 1
+# Time:            108859500 | Addr: 1 | Data:  11  | WE: 1
+# Time:            117888500 | Addr: 1 | Data:  12  | WE: 1
+# Time:            126917500 | Addr: 1 | Data:  13  | WE: 1
+# Time:            135946500 | Addr: 1 | Data:  14  | WE: 1
+# Time:            144975500 | Addr: 1 | Data:  15  | WE: 1
+# Time:            154004500 | Addr: 1 | Data:  16  | WE: 1
+# Time:            163033500 | Addr: 1 | Data:  17  | WE: 1
+# Time:            172062500 | Addr: 1 | Data:  18  | WE: 1
+# Time:            181091500 | Addr: 1 | Data:  19  | WE: 1
+# Time:            190120500 | Addr: 1 | Data:  20  | WE: 1
+# Time:            199149500 | Addr: 1 | Data:  21  | WE: 1
+# Time:            208178500 | Addr: 1 | Data:  22  | WE: 1
+# Time:            217207500 | Addr: 1 | Data:  23  | WE: 1
+# Time:            226236500 | Addr: 1 | Data:  24  | WE: 1
+# Time:            235265500 | Addr: 1 | Data:  25  | WE: 1
+# Time:            244294500 | Addr: 1 | Data:  26  | WE: 1
+# Time:            253323500 | Addr: 1 | Data:  27  | WE: 1
+# Time:            262352500 | Addr: 1 | Data:  28  | WE: 1
+# Time:            271381500 | Addr: 1 | Data:  29  | WE: 1
+# Time:            280410500 | Addr: 1 | Data:  30  | WE: 1
+# Time:            289439500 | Addr: 1 | Data:  31  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            299310500 |Addr: 22 | Data:   0 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:   1 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:   2 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:   3 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:   4 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:   5 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:   6 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:   7 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:   8 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:   9 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  10 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  11 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  12 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  13 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  14 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  15 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  16 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  17 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  18 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  19 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  20 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  21 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  22 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  23 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  24 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  25 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  26 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  27 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  28 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  29 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  30 | WE: 0 
+# Time:            299310500 |Addr: 22 | Data:  31 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            300276500 | Addr: 1 | Data:  69  | WE: 1
+# Time:            318330500 | Addr: 1 | Data: 100  | WE: 0
+# Time:            327358500 | Addr: 1 | Data: 101  | WE: 0
+# Time:            336386500 | Addr: 1 | Data: 102  | WE: 0
+# Time:            345414500 | Addr: 1 | Data: 103  | WE: 0
+# Time:            354442500 | Addr: 1 | Data: 104  | WE: 0
+# Time:            363470500 | Addr: 1 | Data: 105  | WE: 0
+# Time:            372498500 | Addr: 1 | Data: 106  | WE: 0
+# Time:            381526500 | Addr: 1 | Data: 107  | WE: 0
+# Time:            390554500 | Addr: 1 | Data: 108  | WE: 0
+# Time:            399582500 | Addr: 1 | Data: 109  | WE: 0
+# Time:            408610500 | Addr: 1 | Data: 110  | WE: 0
+# Time:            417638500 | Addr: 1 | Data: 111  | WE: 0
+# Time:            426666500 | Addr: 1 | Data: 112  | WE: 0
+# Time:            435694500 | Addr: 1 | Data: 113  | WE: 0
+# Time:            444722500 | Addr: 1 | Data: 114  | WE: 0
+# Time:            453750500 | Addr: 1 | Data: 115  | WE: 0
+# Time:            462778500 | Addr: 1 | Data: 116  | WE: 0
+# Time:            471806500 | Addr: 1 | Data: 117  | WE: 0
+# Time:            480834500 | Addr: 1 | Data: 118  | WE: 0
+# Time:            489862500 | Addr: 1 | Data: 119  | WE: 0
+# Time:            498890500 | Addr: 1 | Data: 120  | WE: 0
+# Time:            507918500 | Addr: 1 | Data: 121  | WE: 0
+# Time:            516946500 | Addr: 1 | Data: 122  | WE: 0
+# Time:            525974500 | Addr: 1 | Data: 123  | WE: 0
+# Time:            535002500 | Addr: 1 | Data: 124  | WE: 0
+# Time:            544030500 | Addr: 1 | Data: 125  | WE: 0
+# Time:            553058500 | Addr: 1 | Data: 126  | WE: 0
+# Time:            562086500 | Addr: 1 | Data: 127  | WE: 0
+# Time:            571114500 | Addr: 1 | Data: 128  | WE: 0
+# Time:            580142500 | Addr: 1 | Data: 129  | WE: 0
+# Time:            589170500 | Addr: 1 | Data: 130  | WE: 0
+# Time:            598198500 | Addr: 1 | Data: 131  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            599043500 |Addr: 22 | Data: 100 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 101 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 102 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 103 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 104 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 105 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 106 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 107 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 108 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 109 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 110 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 111 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 112 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 113 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 114 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 115 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 116 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 117 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 118 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 119 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 120 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 121 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 122 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 123 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 124 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 125 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 126 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 127 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 128 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 129 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 130 | WE: 1 
+# Time:            599043500 |Addr: 22 | Data: 131 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            599058500 | Addr: 1 | Data:   0  | WE: 1
+# Time:            599548500 | Addr: 1 | Data:  68  | WE: 1
+# Time:            608577500 | Addr: 1 | Data:  64  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            618448500 |Addr: 22 | Data:  64 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            619414500 | Addr: 1 | Data:  69  | WE: 1
+# Time:            637468500 | Addr: 1 | Data:  63  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            638313500 |Addr: 22 | Data:  63 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            639279500 | Addr: 1 | Data:  68  | WE: 1
+# Time:            648308500 | Addr: 1 | Data:  65  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            658179500 |Addr: 22 | Data:  65 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            659145500 | Addr: 1 | Data:  69  | WE: 1
+# Time:            677199500 | Addr: 1 | Data:  62  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            678044500 |Addr: 22 | Data:  62 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            679010500 | Addr: 1 | Data:  68  | WE: 1
+# Time:            688039500 | Addr: 1 | Data:  66  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            697910500 |Addr: 22 | Data:  66 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            698876500 | Addr: 1 | Data:  69  | WE: 1
+# Time:            716930500 | Addr: 1 | Data:  61  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            717775500 |Addr: 22 | Data:  61 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            718741500 | Addr: 1 | Data:  68  | WE: 1
+# Time:            727770500 | Addr: 1 | Data:  67  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            737641500 |Addr: 22 | Data:  67 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            738607500 | Addr: 1 | Data:  69  | WE: 1
+# Time:            756661500 | Addr: 1 | Data:  60  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            757506500 |Addr: 22 | Data:  60 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            758472500 | Addr: 1 | Data:  68  | WE: 1
+# Time:            767501500 | Addr: 1 | Data:  68  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            777372500 |Addr: 22 | Data:  68 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            778338500 | Addr: 1 | Data:  69  | WE: 1
+# Time:            796392500 | Addr: 1 | Data:  59  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            797237500 |Addr: 22 | Data:  59 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            798203500 | Addr: 1 | Data:  68  | WE: 1
+# Time:            807232500 | Addr: 1 | Data:  69  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            817103500 |Addr: 22 | Data:  69 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            818069500 | Addr: 1 | Data:  69  | WE: 1
+# Time:            836123500 | Addr: 1 | Data:  58  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            836968500 |Addr: 22 | Data:  58 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            837934500 | Addr: 1 | Data:  68  | WE: 1
+# Time:            846963500 | Addr: 1 | Data:  70  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            856834500 |Addr: 22 | Data:  70 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            857800500 | Addr: 1 | Data:  69  | WE: 1
+# Time:            875854500 | Addr: 1 | Data:  57  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            876699500 |Addr: 22 | Data:  57 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            877665500 | Addr: 1 | Data:  68  | WE: 1
+# Time:            886694500 | Addr: 1 | Data:  71  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            896565500 |Addr: 22 | Data:  71 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            897531500 | Addr: 1 | Data:  69  | WE: 1
+# Time:            915585500 | Addr: 1 | Data:  56  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            916430500 |Addr: 22 | Data:  56 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            917396500 | Addr: 1 | Data:  68  | WE: 1
+# Time:            926425500 | Addr: 1 | Data:  72  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            936296500 |Addr: 22 | Data:  72 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            937262500 | Addr: 1 | Data:  69  | WE: 1
+# Time:            955316500 | Addr: 1 | Data:  55  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            956161500 |Addr: 22 | Data:  55 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            957127500 | Addr: 1 | Data:  68  | WE: 1
+# Time:            966156500 | Addr: 1 | Data:  73  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            976027500 |Addr: 22 | Data:  73 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            976993500 | Addr: 1 | Data:  69  | WE: 1
+# Time:            995047500 | Addr: 1 | Data:  54  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:            995892500 |Addr: 22 | Data:  54 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:            996858500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1005887500 | Addr: 1 | Data:  74  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1015758500 |Addr: 22 | Data:  74 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1016724500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1034778500 | Addr: 1 | Data:  53  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1035623500 |Addr: 22 | Data:  53 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1036589500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1045618500 | Addr: 1 | Data:  75  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1055489500 |Addr: 22 | Data:  75 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1056455500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1074509500 | Addr: 1 | Data:  52  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1075354500 |Addr: 22 | Data:  52 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1076320500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1085349500 | Addr: 1 | Data:  76  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1095220500 |Addr: 22 | Data:  76 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1096186500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1114240500 | Addr: 1 | Data:  51  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1115085500 |Addr: 22 | Data:  51 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1116051500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1125080500 | Addr: 1 | Data:  77  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1134951500 |Addr: 22 | Data:  77 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1135917500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1153971500 | Addr: 1 | Data:  50  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1154816500 |Addr: 22 | Data:  50 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1155782500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1164811500 | Addr: 1 | Data:  78  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1174682500 |Addr: 22 | Data:  78 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1175648500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1193702500 | Addr: 1 | Data:  49  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1194547500 |Addr: 22 | Data:  49 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1195513500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1204542500 | Addr: 1 | Data:  79  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1214413500 |Addr: 22 | Data:  79 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1215379500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1233433500 | Addr: 1 | Data:  48  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1234278500 |Addr: 22 | Data:  48 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1235244500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1244273500 | Addr: 1 | Data:  80  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1254144500 |Addr: 22 | Data:  80 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1255110500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1273164500 | Addr: 1 | Data:  47  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1274009500 |Addr: 22 | Data:  47 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1274975500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1284004500 | Addr: 1 | Data:  81  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1293875500 |Addr: 22 | Data:  81 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1294841500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1312895500 | Addr: 1 | Data:  46  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1313740500 |Addr: 22 | Data:  46 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1314706500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1323735500 | Addr: 1 | Data:  82  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1333606500 |Addr: 22 | Data:  82 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1334572500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1352626500 | Addr: 1 | Data:  45  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1353471500 |Addr: 22 | Data:  45 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1354437500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1363466500 | Addr: 1 | Data:  83  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1373337500 |Addr: 22 | Data:  83 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1374303500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1392357500 | Addr: 1 | Data:  44  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1393202500 |Addr: 22 | Data:  44 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1394168500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1403197500 | Addr: 1 | Data:  84  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1413068500 |Addr: 22 | Data:  84 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1414034500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1432088500 | Addr: 1 | Data:  43  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1432933500 |Addr: 22 | Data:  43 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1433899500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1442928500 | Addr: 1 | Data:  85  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1452799500 |Addr: 22 | Data:  85 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1453765500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1471819500 | Addr: 1 | Data:  42  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1472664500 |Addr: 22 | Data:  42 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1473630500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1482659500 | Addr: 1 | Data:  86  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1492530500 |Addr: 22 | Data:  86 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1493496500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1511550500 | Addr: 1 | Data:  41  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1512395500 |Addr: 22 | Data:  41 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1513361500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1522390500 | Addr: 1 | Data:  87  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1532261500 |Addr: 22 | Data:  87 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1533227500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1551281500 | Addr: 1 | Data:  40  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1552126500 |Addr: 22 | Data:  40 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1553092500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1562121500 | Addr: 1 | Data:  88  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1571992500 |Addr: 22 | Data:  88 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1572958500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1591012500 | Addr: 1 | Data:  39  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1591857500 |Addr: 22 | Data:  39 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1592823500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1601852500 | Addr: 1 | Data:  89  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1611723500 |Addr: 22 | Data:  89 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1612689500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1630743500 | Addr: 1 | Data:  38  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1631588500 |Addr: 22 | Data:  38 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1632554500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1641583500 | Addr: 1 | Data:  90  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1651454500 |Addr: 22 | Data:  90 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1652420500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1670474500 | Addr: 1 | Data:  37  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1671319500 |Addr: 22 | Data:  37 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1672285500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1681314500 | Addr: 1 | Data:  91  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1691185500 |Addr: 22 | Data:  91 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1692151500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1710205500 | Addr: 1 | Data:  36  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1711050500 |Addr: 22 | Data:  36 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1712016500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1721045500 | Addr: 1 | Data:  92  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1730916500 |Addr: 22 | Data:  92 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1731882500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1749936500 | Addr: 1 | Data:  35  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1750781500 |Addr: 22 | Data:  35 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1751747500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1760776500 | Addr: 1 | Data:  93  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1770647500 |Addr: 22 | Data:  93 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1771613500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1789667500 | Addr: 1 | Data:  34  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1790512500 |Addr: 22 | Data:  34 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1791478500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1800507500 | Addr: 1 | Data:  94  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1810378500 |Addr: 22 | Data:  94 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1811344500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1829398500 | Addr: 1 | Data:  33  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1830243500 |Addr: 22 | Data:  33 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1831209500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1840238500 | Addr: 1 | Data:  95  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1850109500 |Addr: 22 | Data:  95 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1851075500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1869129500 | Addr: 1 | Data:  32  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1869974500 |Addr: 22 | Data:  32 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1870940500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1879969500 | Addr: 1 | Data:  96  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1889840500 |Addr: 22 | Data:  96 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1890806500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1908860500 | Addr: 1 | Data:  31  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1909705500 |Addr: 22 | Data:  31 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1910671500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1919700500 | Addr: 1 | Data:  97  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1929571500 |Addr: 22 | Data:  97 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1930537500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1948591500 | Addr: 1 | Data:  30  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1949436500 |Addr: 22 | Data:  30 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1950402500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1959431500 | Addr: 1 | Data:  98  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1969302500 |Addr: 22 | Data:  98 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1970268500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           1988322500 | Addr: 1 | Data:  29  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           1989167500 |Addr: 22 | Data:  29 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           1990133500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           1999162500 | Addr: 1 | Data:  99  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2009033500 |Addr: 22 | Data:  99 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2009999500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2028053500 | Addr: 1 | Data:  28  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2028898500 |Addr: 22 | Data:  28 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2029864500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2038893500 | Addr: 1 | Data: 100  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2048764500 |Addr: 22 | Data: 100 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2049730500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2067784500 | Addr: 1 | Data:  27  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2068629500 |Addr: 22 | Data:  27 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2069595500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2078624500 | Addr: 1 | Data: 101  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2088495500 |Addr: 22 | Data: 101 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2089461500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2107515500 | Addr: 1 | Data:  26  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2108360500 |Addr: 22 | Data:  26 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2109326500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2118355500 | Addr: 1 | Data: 102  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2128226500 |Addr: 22 | Data: 102 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2129192500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2147246500 | Addr: 1 | Data:  25  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2148091500 |Addr: 22 | Data:  25 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2149057500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2158086500 | Addr: 1 | Data: 103  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2167957500 |Addr: 22 | Data: 103 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2168923500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2186977500 | Addr: 1 | Data:  24  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2187822500 |Addr: 22 | Data:  24 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2188788500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2197817500 | Addr: 1 | Data: 104  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2207688500 |Addr: 22 | Data: 104 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2208654500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2226708500 | Addr: 1 | Data:  23  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2227553500 |Addr: 22 | Data:  23 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2228519500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2237548500 | Addr: 1 | Data: 105  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2247419500 |Addr: 22 | Data: 105 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2248385500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2266439500 | Addr: 1 | Data:  22  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2267284500 |Addr: 22 | Data:  22 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2268250500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2277279500 | Addr: 1 | Data: 106  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2287150500 |Addr: 22 | Data: 106 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2288116500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2306170500 | Addr: 1 | Data:  21  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2307015500 |Addr: 22 | Data:  21 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2307981500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2317010500 | Addr: 1 | Data: 107  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2326881500 |Addr: 22 | Data: 107 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2327847500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2345901500 | Addr: 1 | Data:  20  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2346746500 |Addr: 22 | Data:  20 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2347712500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2356741500 | Addr: 1 | Data: 108  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2366612500 |Addr: 22 | Data: 108 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2367578500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2385632500 | Addr: 1 | Data:  19  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2386477500 |Addr: 22 | Data:  19 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2387443500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2396472500 | Addr: 1 | Data: 109  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2406343500 |Addr: 22 | Data: 109 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2407309500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2425363500 | Addr: 1 | Data:  18  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2426208500 |Addr: 22 | Data:  18 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2427174500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2436203500 | Addr: 1 | Data: 110  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2446074500 |Addr: 22 | Data: 110 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2447040500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2465094500 | Addr: 1 | Data:  17  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2465939500 |Addr: 22 | Data:  17 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2466905500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2475934500 | Addr: 1 | Data: 111  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2485805500 |Addr: 22 | Data: 111 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2486771500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2504825500 | Addr: 1 | Data:  16  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2505670500 |Addr: 22 | Data:  16 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2506636500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2515665500 | Addr: 1 | Data: 112  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2525536500 |Addr: 22 | Data: 112 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2526502500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2544556500 | Addr: 1 | Data:  15  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2545401500 |Addr: 22 | Data:  15 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2546367500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2555396500 | Addr: 1 | Data: 113  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2565267500 |Addr: 22 | Data: 113 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2566233500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2584287500 | Addr: 1 | Data:  14  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2585132500 |Addr: 22 | Data:  14 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2586098500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2595127500 | Addr: 1 | Data: 114  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2604998500 |Addr: 22 | Data: 114 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2605964500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2624018500 | Addr: 1 | Data:  13  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2624863500 |Addr: 22 | Data:  13 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2625829500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2634858500 | Addr: 1 | Data: 115  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2644729500 |Addr: 22 | Data: 115 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2645695500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2663749500 | Addr: 1 | Data:  12  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2664594500 |Addr: 22 | Data:  12 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2665560500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2674589500 | Addr: 1 | Data: 116  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2684460500 |Addr: 22 | Data: 116 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2685426500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2703480500 | Addr: 1 | Data:  11  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2704325500 |Addr: 22 | Data:  11 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2705291500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2714320500 | Addr: 1 | Data: 117  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2724191500 |Addr: 22 | Data: 117 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2725157500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2743211500 | Addr: 1 | Data:  10  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2744056500 |Addr: 22 | Data:  10 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2745022500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2754051500 | Addr: 1 | Data: 118  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2763922500 |Addr: 22 | Data: 118 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2764888500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2782942500 | Addr: 1 | Data:   9  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2783787500 |Addr: 22 | Data:   9 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2784753500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2793782500 | Addr: 1 | Data: 119  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2803653500 |Addr: 22 | Data: 119 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2804619500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2822673500 | Addr: 1 | Data:   8  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2823518500 |Addr: 22 | Data:   8 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2824484500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2833513500 | Addr: 1 | Data: 120  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2843384500 |Addr: 22 | Data: 120 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2844350500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2862404500 | Addr: 1 | Data:   7  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2863249500 |Addr: 22 | Data:   7 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2864215500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2873244500 | Addr: 1 | Data: 121  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2883115500 |Addr: 22 | Data: 121 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2884081500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2902135500 | Addr: 1 | Data:   6  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2902980500 |Addr: 22 | Data:   6 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2903946500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2912975500 | Addr: 1 | Data: 122  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2922846500 |Addr: 22 | Data: 122 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2923812500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2941866500 | Addr: 1 | Data:   5  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2942711500 |Addr: 22 | Data:   5 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2943677500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2952706500 | Addr: 1 | Data: 123  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2962577500 |Addr: 22 | Data: 123 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2963543500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           2981597500 | Addr: 1 | Data:   4  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           2982442500 |Addr: 22 | Data:   4 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           2983408500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           2992437500 | Addr: 1 | Data: 124  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           3002308500 |Addr: 22 | Data: 124 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           3003274500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           3021328500 | Addr: 1 | Data:   3  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           3022173500 |Addr: 22 | Data:   3 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           3023139500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           3032168500 | Addr: 1 | Data: 125  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           3042039500 |Addr: 22 | Data: 125 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           3043005500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           3061059500 | Addr: 1 | Data:   2  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           3061904500 |Addr: 22 | Data:   2 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           3062870500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           3071899500 | Addr: 1 | Data: 126  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           3081770500 |Addr: 22 | Data: 126 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           3082736500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           3100790500 | Addr: 1 | Data:   1  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           3101635500 |Addr: 22 | Data:   1 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           3102601500 | Addr: 1 | Data:  68  | WE: 1
+# Time:           3111630500 | Addr: 1 | Data: 127  | WE: 1
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           3121501500 |Addr: 22 | Data: 127 | WE: 0 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# Time:           3122467500 | Addr: 1 | Data:  69  | WE: 1
+# Time:           3140521500 | Addr: 1 | Data:   0  | WE: 0
+# ///////////////////////////////i2c_monitors_data_starts/////////////////////////////////////
+# Time:           3141366500 |Addr: 22 | Data:   0 | WE: 1 
+# ///////////////////////////////i2c_monitors_data_ends/////////////////////////////////////
+# End time: 02:31:05 on Mar 28,2025, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
