@@ -1,23 +1,24 @@
 QuestaSim-64 qrun 2025.1_1 Utility 2025.02 Feb 13 2025
-Start time: 19:37:55 on Apr 06,2025
+Start time: 19:30:26 on Apr 15,2025
 qrun -64 -gui -visualizer -onfinish stop -classdebug -uvmcontrol=all -msgmode both -permit_unmatched_virtual_intf -l run.log -f lab1_filelist.f -sv_seed 123456 -msglimit error -msglimitcount 20 -do "set IterationLimit 140000; set NoQuitOnFinish 1; coverage attribute -name TESTNAME -value test_top; coverage save -onexit test_top.ucdb; do wave.do" -debug,livesim -qwavedb=+signal+memory=1024+report+parameter+class+assertion+uvm_schematic+msg+classmemory=1024+statictaskfunc -top top -covermultiuserenv -designfile design.bin 
 Creating library 'qrun.out/work'.
 QuestaSim-64 vlog 2025.1_1 Compiler 2025.02 Feb 13 2025
-Start time: 19:37:56 on Apr 06,2025
+Start time: 19:30:27 on Apr 15,2025
 vlog -64 -msglimit error -msglimitcount 20 -covermultiuserenv ../../../verification_ip/interface_packages/wb_pkg/src/wb_if.sv ../testbench/top.sv -work qrun.out/work -statslog qrun.out/stats_log -writesessionid "+qrun.out/top_dus" -csession=incr 
 -- Compiling interface wb_if
 ** Error: ../testbench/top.sv(3): (vlog-13006) Could not find the package (i2c_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
-** Warning: ../testbench/top.sv(32): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-** Warning: ../testbench/top.sv(33): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-** Warning: ../testbench/top.sv(34): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Error: ../testbench/top.sv(4): (vlog-13006) Could not find the package (wb_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: ../testbench/top.sv(5): (vlog-13006) Could not find the package (i2cmb_env_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
+** Error: ../testbench/top.sv(6): (vlog-13006) Could not find the package (ncsu_pkg).  Design read will continue, but expect a cascade of errors after this failure.  Furthermore if you experience a vopt-7 error immediately before this error then please check the package names or the library search paths on the command line.
 ** Warning: ../testbench/top.sv(35): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-** Error: ../testbench/top.sv(259): (vlog-2164) Class or package 'i2c_pkg' not found.
-** Error: ../testbench/top.sv(259): (vlog-2730) Undefined variable: 'i2c_pkg'.
-** Error: (vlog-13069) ../testbench/top.sv(259): near "::": syntax error, unexpected ::.
-End time: 19:37:56 on Apr 06,2025, Elapsed time: 0:00:00
-Errors: 4, Warnings: 4
-End time: 19:37:56 on Apr 06,2025, Elapsed time: 0:00:01
+** Warning: ../testbench/top.sv(36): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: ../testbench/top.sv(37): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: ../testbench/top.sv(38): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Error: (vlog-13069) ../testbench/top.sv(106): near "#": syntax error, unexpected '#'.
+End time: 19:30:28 on Apr 15,2025, Elapsed time: 0:00:01
+Errors: 5, Warnings: 4
+End time: 19:30:28 on Apr 15,2025, Elapsed time: 0:00:02
 *** Summary *********************************************
     qrun: Errors:   0, Warnings:   0
-    vlog: Errors:   4, Warnings:   4
-  Totals: Errors:   4, Warnings:   4
+    vlog: Errors:   5, Warnings:   4
+  Totals: Errors:   5, Warnings:   4

@@ -11,7 +11,6 @@ include $(ECE745_PROJECT_HOME)/verification_ip/environment_packages/i2cmb_env_pk
 
 
 
-
 clean: 
 	rm -rf work *.wlf transcript qrun.out
 
