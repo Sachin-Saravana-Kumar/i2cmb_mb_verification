@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.bus_state(rtl)","id":21,"zf":1,"tc":100.00,"fs":100.00,"ft":100.00},{"n":"work.i2c_pkg","id":7,"zf":1,"tc":50.31,"g":50.31},{"n":"work.mbit(rtl)","id":17,"zf":1,"tc":60.96,"fs":80.00,"ft":41.93},{"n":"work.mbyte(rtl)","id":16,"zf":1,"tc":70.22,"fs":87.50,"ft":52.94},{"n":"work.wb_pkg","id":6,"zf":1,"tc":48.54,"g":48.54}]};
+processDuData(g_data);

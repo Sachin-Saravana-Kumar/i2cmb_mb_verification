@@ -3,6 +3,7 @@ class wb_agent extends ncsu_component#(.T(wb_transaction));
   wb_configuration configuration;
   wb_driver        driver;
   wb_monitor       monitor;
+  wb_coverage      wb_cover;
   ncsu_component #(T) subscribers[$];
   virtual wb_if    wb_bus;
 
@@ -24,6 +25,12 @@ class wb_agent extends ncsu_component#(.T(wb_transaction));
     driver = new("driver",this);
     driver.set_configuration(configuration);
     driver.bus = this.wb_bus;
+    if(configuration.collect_coverage) begin
+         wb_cover = new("wb_cover", this);
+         wb_cover.set_configuration(configuration);
+         wb_cover.build();
+         connect_subscriber(wb_cover);
+         end
     monitor = new("monitor",this);
     monitor.set_configuration(configuration);
     monitor.set_agent(this);

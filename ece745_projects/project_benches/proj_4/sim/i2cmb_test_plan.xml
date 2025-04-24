@@ -1,0 +1,811 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Sachin Saravana Kumar</Author>
+  <LastAuthor>Sachin Saravana Kumar</LastAuthor>
+  <Created>2006-10-02T07:59:43Z</Created>
+  <LastSaved>2025-04-24T03:55:50Z</LastSaved>
+  <Company>Mentor Graphics</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9225</WindowHeight>
+  <WindowWidth>21600</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <TabRatio>416</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="16" ss:Bold="1"
+    ss:Italic="1" ss:Underline="Single"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="14" ss:Bold="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="14" ss:Bold="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font ss:FontName="Arial"/>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Interior ss:Color="#CCFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="AHB to WB Bridge Test Plan">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="46" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="52.875" ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="67.875"/>
+   <Column ss:AutoFitWidth="0" ss:Width="132"/>
+   <Column ss:AutoFitWidth="0" ss:Width="246"/>
+   <Column ss:AutoFitWidth="0" ss:Width="238.125"/>
+   <Column ss:AutoFitWidth="0" ss:Width="81"/>
+   <Column ss:AutoFitWidth="0" ss:Width="61.875"/>
+   <Column ss:AutoFitWidth="0" ss:Width="45"/>
+   <Column ss:AutoFitWidth="0" ss:Width="81" ss:Span="2"/>
+   <Row ss:AutoFitHeight="0" ss:Height="22.03125">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Verification Plan for I2CMB</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.03125"/>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">#</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Section</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Link</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Weight</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Goal</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Owner</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Manager</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Priority</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Simulation </Data></Cell>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.03125">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Register_coverage</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="37.03125">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">1.1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Register Covergroup</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Register Covergroup</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">register_cg</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">covergroup</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.21875">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">1.2</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Valid Register Address Check</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Validate accessibility of all register addresses by executing read and write operations on CSR, DPR, CMDR, and FSMP registers.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">register_cg::address</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">coverpoint</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">1.3</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Invalid Register Address Handling</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Perform a write operation to an invalid register address to confirm error handling.&#10;</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">er_handling</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">test</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.21875">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">1.4</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Register Permissions</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Verify that write-protected registers, such as FSMR, reject unintended modifications by attempting to write to a read-only register.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">FSMR_rd_test</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">test</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.21875">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">1.5</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Register reset</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Reset the IICMB core using the reset signal and ensure that the 'e' bit in the CSR register is cleared to 0.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">directed_test</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">test</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">1.6</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Default Register Value Verification</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Check that all registers are correctly initialized to their default values.</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">check_default_vals</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">test</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.03125">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">I2C Transaction Coverage</Data></Cell>
+    <Cell ss:StyleID="s79"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="47.53125">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">2.1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">I2C Covergroup</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Establish a covergroup to assess the completeness of I2C transaction coverage, ensuring thorough protocol validation.</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">i2c_transaction_cg</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">covergroup</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">2.2</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">I2C Address Validation</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Define a coverpoint to confirm that all possible I2C transaction addresses are accessed, spanning various address ranges.</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">i2c_transaction_cg::address</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">coverpoint</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.78125">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">2.3</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">I2C Data Transfer Coverage</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Capture and analyze all data values exchanged during I2C transactions to ensure exhaustive data validation.</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">i2c_transaction_cg::data</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">coverpoint</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.78125">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">2.4</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">I2C Operation Coverage</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Include a coverpoint to monitor different I2C transaction operations.</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">i2c_transaction_cg::op</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">coverpoint</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">2.5</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">I2C Transaction Combination Testing</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Implement cross-coverage to verify all combinations of transaction address, data, and operation types.</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">i2c_transaction_cg::address_x_data_x_op</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">cross</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Wishbone (WB) Transaction Coverage</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="42.46875">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">3.1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">WB Covergroup</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Develop a covergroup to evaluate the completeness of WB transaction coverage, ensuring compliance with protocol specifications.</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">wb_transaction_cg</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">covergroup</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="43.78125">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">3.2</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">WB Address Validation</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Track all valid WB transaction addresses to guarantee that every register or memory-mapped location is accessed.</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">wb_transaction_cg::address</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">coverpoint</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="32.53125">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">3.3</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">WB Data Coverage</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Monitor WB transaction data values to ensure that all potential variations are considered.</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">wb_transaction_cg::data</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">coverpoint</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29.25">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">3.4</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">WB WE</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Introduce a coverpoint to validate WB transaction write enable (WE) signals</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">wb_transaction_cg::we</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">coverpoint</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="45">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">3.5</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">WB Transaction Cross</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Establish cross-coverage to assess all valid combinations of WB transaction addresses, data values, and write enable signals.</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">wb_transaction_cg::address_x_data_x_we</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">cross</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.03125">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">compulsory_tests</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="46.21875">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">4.1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Random Read Operations</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Conduct continuous read operations on random data from the I2C slave to assess stability and accuracy.</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">rand_read</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">test</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39.46875">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">4.2</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Random Write Operations</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Perform continuous write operations with varied data to the I2C slave, verifying the system's ability to handle different write scenarios.</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">rand_write</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">test</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="46.78125">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">4.3</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Alternating Reads/Writes Test</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Alternate between read and write operations on the I2C slave to ensure data consistency and reliable interface performance.</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">rand_alt</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">test</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.96875">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">fsm_coverage</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.96875">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">5.1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">MBIT Coverage</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Coverage of bit level fsm</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">/top/DUT/iicmb_m_inst0/mbit_inst0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">FSM</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.96875">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">5.2</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">MBYTE Coverage</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Coverage of byte level fsm</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">/top/DUT/iicmb_m_inst0/mbyte_inst0</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">FSM</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.03125">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">5.3</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Misc FSM TEST</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Coverage of byte level fsm</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">transitions</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">test</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">6</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Code_Coverage</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.96875">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">6.1</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String" x:Ticked="1">DUT</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">&quot;Ensures that all design units achieve 100% statement and branch coverage, verifying that no untested logic paths exist.&quot;&#10;</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">/top/DUT</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">instance</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.5">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">7</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Response test</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+    <Cell ss:StyleID="s82"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29.25">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">7.1</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String" x:Ticked="1">response state test</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">&quot;Ensures that all design units achieve 100% statement and branch coverage, verifying that no untested logic paths exist.&quot;&#10;</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">feedback_test</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">test</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">7.2</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String" x:Ticked="1">Assert for rst_i function </Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">&quot;Ensures that all design units achieve 100% statement and branch coverage, verifying that no untested logic paths exist.&quot;&#10;</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">assert__rst_i_correct</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="28.96875">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">7.3</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String" x:Ticked="1">command Responses</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">&quot;Ensures that all design units achieve 100% statement and branch coverage, verifying that no untested logic paths exist.&quot;&#10;</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">assert__i2cmb_arbitration</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">7.4</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String" x:Ticked="1">CMDR feedback</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">&quot;Ensures that all design units achieve 100% statement and branch coverage, verifying that no untested logic paths exist.&quot;&#10;</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">assert__WB_feedback</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s84"><Data ss:Type="String">7.5</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String" x:Ticked="1">serial clock</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String" x:Ticked="1">&quot;Ensures that all design units achieve 100% statement and branch coverage, verifying that no untested logic paths exist.&quot;&#10;</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">assert__scl_arbitration</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">Assertion</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">sachin</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="s91"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="Default"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>24</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>34</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

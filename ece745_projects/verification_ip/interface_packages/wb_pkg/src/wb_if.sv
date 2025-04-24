@@ -24,6 +24,32 @@ interface wb_if       #(
   input wire [DATA_WIDTH-1:0] dat_i
   );
 
+    property rst_i_correct;
+    @(posedge clk_i)((clk_i==1&&rst_i==1)==0);
+  endproperty
+
+  property i2cmb_arbitration;
+    @(posedge irq_i) 1'b1;
+  endproperty
+
+  property WB_feedback;
+    @(posedge clk_i)
+    (adr_o == 2) |->
+        ((^dat_o[7:4] === 1'bx) ||  // If any bit is x/z, skip
+         (dat_o[7:4] == 4'b0000)   || 
+         ($countones(dat_o[7:4]) == 1));
+   endproperty
+
+assert property(WB_feedback)
+    else $error("ERROR: WB_feedback failed at time %0t. dat_o[7:4] = %b", $time, dat_o[7:4]);
+
+
+assert property(WB_feedback)
+    else $error("ERROR: WB_feedback violation at time %0t: dat_o[7:4] = %b", $time, dat_o[7:4]);
+
+  assert property(rst_i_correct) else $error("rst_i was not passed correctly");
+  assert property(i2cmb_arbitration) else $error("error in i2cmb arbitration");
+
   initial reset_bus();
 // ****************************************************************************              
    task wait_for_reset();
@@ -110,7 +136,14 @@ endtask
           end else begin
             data = dat_i;
           end
-          while (cyc_o) @(posedge clk_i);                                                  
-     endtask 
+          while (cyc_o) @(posedge clk_i); 
+
+         if(adr_o == 2) begin
+            if(dat_o[6] == 1) $display("byte NOT ACKNOWLEDGE");
+            if(dat_o[5] == 1) $display("Arbitration Lost");
+            if(dat_o[4] == 1) $display("Error State");
+         end
+   endtask 
+            
 
 endinterface

@@ -1,35 +1,43 @@
-// class wb_coverage extends ncsu_component#(.T(wb_transaction_base));
-//   bit [7:0] wb_data;
-//   bit [1:0] wb_offsets;
-//   bit rw;
+class wb_coverage extends ncsu_component#(.T(wb_transaction));
+    bit [1:0] address; //register address
+   bit we = 0; //operation
+   bit [7:0] data; //data
 
-//   wb_configuration cfg;
+  wb_configuration cfg;
 
-//   covergroup coverage_wb_cg;
-//     option.per_instance = 1;
-//     option.name = get_full_name();
-//     data:coverpoint wb_data;
-//     offset:coverpoint wb_offsets;
-//     op:coverpoint rw;
-//     wb_op_x_wb_data_x_wb_offsets: cross rw, wb_data, wb_offsets;
-//   endgroup
+  covergroup wb_transaction_cg;
+    option.per_instance = 1;
+    option.name = get_full_name();
+    data:coverpoint data {bins ranges [4] = {[0:255]};}
+    address:coverpoint address{bins used = {1,2};}
+    we:coverpoint we;
+    address_x_data_x_we: cross we, data, address;
+  endgroup
 
-//   function void set_configuration(wb_configuration cfg);
-//     this.cfg = cfg;
-//   endfunction
+  covergroup register_cg;
+    option.per_instance = 1;
+    option.name = get_full_name();
+    address : coverpoint address {bins valid [4] = {0,1,2,3};}
+  endgroup
+
+  function void set_configuration(wb_configuration cfg);
+    this.cfg = cfg;
+  endfunction
   
 
-//   function new(string name = "", ncsu_component_base parent =null);
-//     super.new(name, parent);
-//     coverage_wb_cg = new;
-//   endfunction
+  function new(string name = "", ncsu_component_base parent =null);
+    super.new(name, parent);
+    wb_transaction_cg = new;
+    register_cg = new;
+  endfunction
 
-//   virtual function void nb_put(T trans);
-//     wb_data = trans. write_data_array_1[0];
-//     wb_offsets = trans.offset;
-//     rw = trans.rw;
-//     coverage_wb_cg.sample();
-//   endfunction
+  virtual function void nb_put(T trans);
+    this.data = trans.data;
+    this.we   = trans.we;
+    this.address = trans.address;
+    wb_transaction_cg.sample();
+    register_cg.sample();
+  endfunction
 
 
-// endclass
+endclass

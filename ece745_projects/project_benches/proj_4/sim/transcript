@@ -1,0 +1,64 @@
+# //  Questa Sim-64
+# //  Version 2025.1_1 linux_x86_64 Feb 13 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vsim -i -classdebug -msgmode both -do "do load_ucdbs_and_merge_with_test_plan.do" optimized_debug_top_tb 
+# Start time: 01:02:22 on Apr 24,2025
+# Loading sv_std.std
+# Loading work.i2c_if(fast)
+# Loading work.wb_if(fast)
+# Loading work.ncsu_pkg(fast)
+# Loading work.wb_pkg(fast)
+# Loading work.i2c_pkg(fast)
+# Loading work.i2cmb_env_pkg(fast)
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.i2c_if_sv_unit(fast)
+# Loading work.i2c_if(fast__2)
+# Loading work.wb_if(fast__2)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.iicmb_m_wb(str)#1
+# Loading work.wishbone(rtl)#1
+# Loading ieee.numeric_std(body)
+# Loading work.iicmb_pkg(body)
+# Loading work.regblock(rtl)#1
+# Loading work.iicmb_int_pkg(body)
+# Loading work.iicmb_m(str)#1
+# Loading work.mbyte(rtl)#1
+# Loading work.mbit(rtl)#1
+# Loading work.conditioner_mux(str)#1
+# Loading work.conditioner(str)#1
+# Loading work.filter(rtl)#1
+# Loading work.bus_state(rtl)#1
+# do load_ucdbs_and_merge_with_test_plan.do
+# Format 'Excel' read from parameter file.
+# 35 testplan section(s) added.
+# Database './i2cmb_test_plan.ucdb' written.
+# Merging file ./i2cmb_test_plan.ucdb
+# Merging file ./check_default_vals.random.ucdb
+# Merging file ./FSMR_rd_test.random.ucdb
+# Merging file ./er_handling.random.ucdb
+# Merging file ./feedback_test.random.ucdb
+# Merging file ./rand_alt.random.ucdb
+# Merging file ./directed_test.random.ucdb
+# Merging file ./rand_write.random.ucdb
+# Merging file ./rand_read.random.ucdb
+# Merging file ./transitions.random.ucdb
+# Writing merged result to regression.ucdb
+# 
+# Applying tag commands ...
+# All tags are applied successfully.
+# coverage read -dataset regression ./regression.ucdb
+# ./regression.ucdb opened as coverage dataset "regression"

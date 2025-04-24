@@ -19,8 +19,8 @@ class i2cmb_environment extends ncsu_component;
     super.build();
     cfg = new("env_cfg");
     wb_agent1 = new("wb_agent",this);
-    wb_agent1.build();
     wb_agent1.set_configuration(cfg.wb_agent_config);
+    wb_agent1.build();
     i2c_agent1 = new("i2c_agent",this);
     i2c_agent1.set_configuration(cfg.i2c_agent_config);
     i2c_agent1.build();
@@ -59,19 +59,5 @@ class i2cmb_environment extends ncsu_component;
   wb_agent1.run();
   i2c_agent1.run();
   endtask
-
-//     function void check_null_class();
-//     if (i2c_cfg == null || wb_agent1 == null || i2c_agent1 == null ||pred == null || scbd == null || coverage == null) begin
-//       $fatal(3, "Null class handle detected: 'wb_trans i2c_trans wb_agent1 i2c_agent1' is null.");
-//     end
-//   endfunction
-  
-
-
-//   virtual task nb_run(T i2c_trans , wb_transaction wb_trans);
-//     fork
-//     scbd.nb_put_t(i2c_trans,wb_trans);
-//     join_none
-//   endtask
 
 endclass

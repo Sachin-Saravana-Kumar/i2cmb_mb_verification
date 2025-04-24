@@ -17,6 +17,7 @@ class wb_monitor extends ncsu_component#(.T(wb_transaction));
     function void set_agent(ncsu_component #(T) agent);
         this.agent = agent;
     endfunction
+
     bit [1:0] addr_val;
     bit we_val;
     bit [7:0] data_val;
@@ -33,9 +34,9 @@ class wb_monitor extends ncsu_component#(.T(wb_transaction));
          monitored_trans.we = we_val;
          monitored_trans.data = data_val;
          //$display("wb monitored_trans data: %d", data_val);
-         if(addr_val == 1)
-         $display("transferred: addr - %x. data - %d, we - %x", addr_val, data_val, we_val);
-         //agent.nb_put(monitored_trans);
+         if(addr_val == 1 || addr_val == 2 )
+         $display("transferred: addr - %x. data - %x, we - %x", addr_val, data_val, we_val);
+         agent.nb_put(monitored_trans);
          if(enable_transaction_viewing) begin
             monitored_trans.end_time = $time;
             monitored_trans.add_to_wave(transaction_viewing_stream);

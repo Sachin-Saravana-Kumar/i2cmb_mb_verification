@@ -41,7 +41,7 @@ class i2c_monitor extends ncsu_component#(.T(i2c_transaction));
          else begin
             $display("I2C_BUS READ  Transfer: addr - %x, data - %p", monitored_trans.addr, monitored_trans.data);
         end
-        //agent.nb_put(monitored_trans);
+        agent.nb_put(monitored_trans);
          if(enable_transaction_viewing) begin
             monitored_trans.end_time = $time;
             monitored_trans.add_to_wave(transaction_viewing_stream);

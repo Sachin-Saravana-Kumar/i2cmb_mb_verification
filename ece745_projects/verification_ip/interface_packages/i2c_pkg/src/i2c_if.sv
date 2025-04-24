@@ -37,6 +37,14 @@ interface i2c_if #(
     assign scl_o =  scl_i;
     end
 
+    property scl_arbitration;
+    @(posedge scl_i) 1'b1;
+    endproperty
+
+    assert property(scl_arbitration) else $error("error in scl_arbitration");
+
+
+
     task  stop_condition();
             forever begin
                 @(posedge sda_i);

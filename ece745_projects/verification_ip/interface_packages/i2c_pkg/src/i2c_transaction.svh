@@ -33,3 +33,34 @@ class i2c_transaction extends ncsu_transaction;
       $free_transaction(transaction_view_h);
    endfunction
 endclass
+
+class i2c_rand_transaction extends i2c_transaction;
+    `ncsu_register_object(i2c_rand_transaction);
+
+    bit [7:0] i2c_random_queue[$];
+
+    function new(string name = ""); 
+        super.new(name);
+    endfunction
+
+    virtual function string convert2string();
+      return { super.convert2string(), $sformatf("\nop : 0x%x\nAddress : 0x%x \ndata : %p",
+	       op, addr, int_array_data)};
+   endfunction
+
+       // Populate the queue with random values
+    virtual function void generate_random_data(int num_values = 32);
+        // Optional seed control
+        i2c_random_queue.delete(); // Clean slate
+
+        for (int i = 0; i < num_values; i++) begin
+            i2c_random_queue.push_back($urandom_range(0, 127)); // 7-bit I2C range
+        end
+
+        $display("[I2C_TRANSACTION] Random data queue populated:");
+        foreach (i2c_random_queue[i])
+            $display("  Index %0d: 0x%0h", i, i2c_random_queue[i]);
+        read_queue_data = i2c_random_queue;
+    endfunction
+    
+endclass
